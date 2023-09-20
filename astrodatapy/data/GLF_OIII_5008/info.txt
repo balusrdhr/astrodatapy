@@ -1,0 +1,20 @@
+# The data format follows 
+# Log(M/Msol)  Phi/Mpc^-3dex^-1 Errors/Mpc^-3dex^-1
+
+# Errors can be ULLimits (meaning upper and lower limits)
+# Errors can be LULimits (meaning lower and upper limits)
+# Errors can be ULDeltas (meaning upper and lower 1sigma range)
+# Errors can be LUDeltas (meaning lower and upper 1sigma range)
+# Errors can be Delta    (meaning 1sigma range)
+
+# If Log==1, Phi is in logarithm
+# If HinPhi==1, the unit of Phi is h^3Mpc**-1dex**-1
+# If Function==data, *.dat contains data
+# If Function==Schechter, *.dat contains parameters of Schechter function
+# Schechter parameters: xmin, xmax, Mag_star, phi_star, alpha
+
+# Outdated data
+
+#Name		L		h		NormalizationOfPhi		Errors		Log		HinPhi		Type		Bibliographic
+Sun2022		L_5008		0.7			1.0 			Delta		 1 		  1		data		  arXiv	
+Mathee2022	L_5008		0.67			1.0			Delta		 1		  1		data		   blah
